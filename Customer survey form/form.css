@@ -1,0 +1,112 @@
+body {
+    background-color: #0099cc;
+    color: black; /* Set the text color to black */
+}
+
+
+.container {
+    text-align: left;
+    padding: 20px;
+}
+
+.heading {
+    text-align: center;
+    color: #fff;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 22px;
+    color: black; /* Set the text color to black */
+    width: 100vw; /* Set the card width as a percentage of the viewport width */
+    height: 100vw; /* Set the card height to match the width */
+    max-width: 1000px; /* Limit the card's maximum width */
+    max-height: 500px; /* Limit the card's maximum height */
+    margin: auto; /* Center the card horizontally and vertically */
+}
+/* Add custom styles for the form layout */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* Add spacing between rows */
+}
+
+.form-group {
+    flex: 1;
+    margin-right: 2em; /* Adjust the space between elements in each row */
+}
+/* Add custom styles for the form layout */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    flex: 1;
+    margin-right: 2em;
+}
+
+/* Make select elements the same size as input fields */
+select {
+    width: 50%;
+}
+
+
+
+.form-group {
+    margin: 10px 0;
+}
+
+label, input, select, textarea, button, p {
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
+.button-container {
+    text-align: left;
+}
+
+button {
+    margin: 5px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.popup-content {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 60%;
+    height: 60%; /* Set the card height within the popup */
+    margin: auto; /* Center the card horizontally and vertically */
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black; /* Set the text color to black */
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #0099cc;
+    color: black; /* Set the text color to black */
+    padding: 10px ;
+    text-align: center;
+}
